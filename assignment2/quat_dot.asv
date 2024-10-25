@@ -1,0 +1,13 @@
+function q_dot = q_dot(q, w_B)
+    q_0 = q(1);
+    q_1 = q(2);
+    q_2 = q(3);
+    q_3 = q(4);
+
+    epsilon_q = 1-(q_0^2 + q_1^2 + q_2^2 + q_3^2);
+
+    C_k = 5;
+    q_dot = ;
+
+
+end
